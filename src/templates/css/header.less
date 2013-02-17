@@ -1,7 +1,15 @@
 // Heights
-@list-social-height: @btn-social-size;
-@min-header-height: 60px;
 @header-title-height: 28px;
+@list-social-height: @btn-social-size;
+@list-social-parent-height: @header-height;
+
+@header-height: 62px;
+@mobile-header-height: 124px;
+@mobile-list-social-parent-height: @mobile-header-height - @header-height;
+
+@list-social-nb-buttons: 5;
+@list-social-width: @btn-social-width-with-margins *
+                    @list-social-nb-buttons;
 
 .fixed-top {
   position: fixed;
@@ -13,7 +21,7 @@
 .header-bar {
   background: @grey;
   border-bottom: @layout-border-size solid @layout-border-color;
-  min-height: @min-header-height;
+  height: @header-height;
 }
 
 h1 {
@@ -21,18 +29,15 @@ h1 {
   font-weight: bold;
   color: @white;
   line-height: @header-title-height;
-  .centerVerticallyInParent(@header-title-height, @min-header-height);
+  .centerVerticallyInParent(@header-title-height, @header-height);
 }
 
 #list-social {
-  .centerVerticallyInParent(@list-social-height, @min-header-height);
-  margin-left: @btn-social-border-size;
+   .centerVerticallyInParent(@list-social-height, @header-height);
+   margin-left: @btn-social-border-size;
+   width: @list-social-width;
 }
 
 #list-social li {
   float:left;
-}
-
-#list-social li:first-child .btn-social {
-  margin-left: 0;
 }

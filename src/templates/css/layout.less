@@ -2,7 +2,8 @@
 @layout-border-size: 2px;
 
 // Paddings
-@layout-padding-top: 100px; // for the fixed-top header
+@layout-padding-top: @header-height + 40; // for the fixed-top header
+@mobile-layout-padding-top: @mobile-header-height; // for the fixed-top header
 @right-layout-padding-left: 20px;
 
 .left {
@@ -23,11 +24,7 @@
 }
 
 .right {
-//color: @greyDark;
-  text-align: left;
-  padding-left: @right-layout-padding-left;
-//padding-left: -2%;
-  margin-left: -4px !important;
+
 }
 
 .content {

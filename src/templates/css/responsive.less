@@ -1,7 +1,9 @@
 
 // Desktop large
 @media (min-width: 1200px) {
-
+  #list-social li:first-child .btn-social {
+    margin-left: 0;
+  }
 }
 
 // Desktop
@@ -19,7 +21,32 @@
 
 // Tablet
 @media (max-width: 767px) {
+  .left {
+    text-align: center;
+    padding-right: 0;
+    *padding-right: 0;
+  }
 
+  .header-bar {
+    height: @mobile-header-height;
+  }
+
+  #list-social {
+    margin: 0 auto;
+  }
+
+  .content {
+    padding-top: @mobile-layout-padding-top;
+  }
+
+  h2 {
+    margin-top: 0;
+  }
+
+  section {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
 }
 
 // Landscape phones

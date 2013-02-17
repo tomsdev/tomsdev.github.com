@@ -1,10 +1,12 @@
+// Margins
+@btn-social-margin-horizontal: 10px;
+
 // Sizes
 @btn-social-inner-size: 27px;
 @btn-social-border-size: 4px;
 @btn-social-size: @btn-social-inner-size + @btn-social-border-size * 2;
-
-// Margins
-@btn-social-margin: 10px;
+@btn-social-width-with-margins: @btn-social-size +
+                                @btn-social-margin-horizontal * 2;
 
 // Images
 @btn-social-img-path: '../img/sprite-rsmb.png';
@@ -16,8 +18,8 @@
   border-radius: 50%;
   border: @btn-social-border-size solid @greyBtnBorderColor;
   cursor: pointer;
-  margin-left: @btn-social-margin;
-  margin-right: @btn-social-margin;
+  margin-left: @btn-social-margin-horizontal;
+  margin-right: @btn-social-margin-horizontal;
 }
 
 .btn-social:hover {
