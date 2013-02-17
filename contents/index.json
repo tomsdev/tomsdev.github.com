@@ -1,0 +1,58 @@
+{
+	"header": {
+		"title": "Thomas Laurent"
+	},
+
+	"blocks": [
+		{
+			"title": "Working on",
+			"color": "green",
+			"elements": [
+				{
+					"title" : "Vocabulary",
+					"link" : "http://vocabulary-angular.herokuapp.com",
+					"text" : "A web application to help language learners to learn new words and their meanings. Designed to work on desktop and mobile. Writen in Javascript with AngularJS and <i>jQuery Mobile</i>. Fully unit tested with Jasmine."
+				},
+				{
+					"title" : "EADS - Spot Image",
+					"text" : "A web application to help language learners to learn new words and their meanings. Designed to work on desktop and mobile. Writen in Javascript with AngularJS and <i>jQuery Mobile</i>. Fully unit tested with Jasmine."
+                }
+			]
+		},
+		{
+			"title": "Past works",
+			"color": "red",
+			"elements": [
+                {
+                    "title" : "Vocabulary",
+                    "link" : "http://vocabulary-angular.herokuapp.com",
+                    "text" : "A web application to help language learners to learn new words and their meanings. Designed to work on desktop and mobile. Writen in Javascript with AngularJS and <i>jQuery Mobile</i>. Fully unit tested with Jasmine."
+                },
+                {
+                    "title" : "EADS - Spot Image",
+                    "text" : "A web application to help language learners to learn new words and their meanings. Designed to work on desktop and mobile. Writen in Javascript with AngularJS and <i>jQuery Mobile</i>. Fully unit tested with Jasmine."
+                }
+			]
+		},
+		{
+			"title": "Code",
+			"image":
+				{
+					"src": "http://www.samuelclay.com/static/images/github-logo.png",
+					"width": "50"
+				},
+			"color": "purple",
+			"elements": [
+                {
+                    "title" : "Vocabulary",
+                    "link" : "http://vocabulary-angular.herokuapp.com",
+                    "text" : "A web application to help language learners to learn new words and their meanings. Designed to work on desktop and mobile. Writen in Javascript with AngularJS and <i>jQuery Mobile</i>. Fully unit tested with Jasmine."
+                },
+                {
+                    "title" : "EADS - Spot Image",
+                    "text" : "A web application to help language learners to learn new words and their meanings. Designed to work on desktop and mobile. Writen in Javascript with AngularJS and <i>jQuery Mobile</i>. Fully unit tested with Jasmine."
+                }
+			]
+		}
+	]
+}

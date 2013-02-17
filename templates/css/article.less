@@ -1,0 +1,79 @@
+// Colors
+@h2-shadow-color: #F6F6F6;
+
+// Section
+@section-margin-bottom: 22px;
+@section-content-padding-vertical: 6px;
+@section-header-padding-top: @section-content-padding-vertical +
+                             @article-padding-vertical;
+
+// Article
+@article-padding-vertical: 10px;
+@article-content-margin-top: 10px;
+
+section {
+  margin-bottom: @section-margin-bottom;
+}
+
+h2 {
+  font-size: 1.4em;
+  color: @greyDarkText;
+  font-weight: bold;
+  text-shadow: 1px 1px 0 @h2-shadow-color;
+  margin-top: @section-header-padding-top - 1;
+}
+
+h3 {
+  font-size: 1.3em;
+  font-weight: bold;
+  display: inline; //permit h3 to have a link beside
+}
+
+.section-content {
+  border-left-style: solid;
+  border-left-width: 6px;
+  padding-top: @section-content-padding-vertical;
+  padding-bottom: @section-content-padding-vertical;
+}
+
+.section-content a {
+  color: @greyDarkText;
+  font-size: 0.9em;
+  display: block;
+  margin-bottom: 4px;
+}
+
+article {
+  padding-top: @article-padding-vertical;
+  padding-bottom: @article-padding-vertical;
+}
+
+.article-content {
+  margin-top: @article-content-margin-top;
+}
+
+// Section colors
+
+.section-green {
+  border-left-color: @green;
+}
+
+.section-green h3, .section-green a:hover {
+  color: @green;
+}
+
+.section-red {
+  border-left-color: @red;
+}
+
+.section-red h3, .section-red a:hover {
+  color: @red;
+}
+
+.section-purple {
+  border-left-color: @purple;
+}
+
+.section-purple h3, .section-purple a:hover {
+  color: @purple;
+}

@@ -1,0 +1,7 @@
+{
+	"site-title": "Thomas Laurent",
+	"navbar": [
+		{ "label": "github", "href": "/"},
+		{ "label": "twitter", "href": "/"}
+	]
+}

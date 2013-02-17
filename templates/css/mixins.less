@@ -1,0 +1,7 @@
+// Centers the content vertically.
+// Requires the exact content and parent height.
+.centerVerticallyInParent (@contentHeight, @parentHeight) {
+  height: @contentHeight;
+  margin-top: (@parentHeight - @contentHeight) / 2;
+  margin-bottom: (@parentHeight - @contentHeight) / 2;
+}

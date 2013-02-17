@@ -1,0 +1,27 @@
+<section class="row-fluid">
+	<div class="span4 left">
+		<h2>{{{upcase title}}}</h2>
+
+		{{#if image}}
+			<img src="{{image.src}}" width="{{image.width}}" height="{{image.height}}">
+		{{/if}}
+	</div>
+
+	<div class="span8 right section-content section-{{color}}">
+		{{#elements}}
+			<article>
+			    <header>
+					<h3>{{title}}</h3>
+
+					{{#if link}}
+						<a href="{{link}}">{{link}}</a>
+					{{/if}}
+				</header>
+
+				<div class="article-content">
+					<p>{{{text}}}</p>
+				</div>
+			</article>
+		{{/elements}}
+	</div>
+</section>

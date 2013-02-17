@@ -1,0 +1,35 @@
+// Borders
+@layout-border-size: 2px;
+
+// Paddings
+@layout-padding-top: 100px; // for the fixed-top header
+@right-layout-padding-left: 20px;
+
+.left {
+//color: @greyDark;
+  text-align: right;
+  padding-right: 2.564102564102564%;
+  *padding-right: 2.5109110747408616%;
+}
+
+.background-left {
+  position: absolute;
+  background-color: @greyLight;
+  border-right: @layout-border-size solid @layout-border-color;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.right {
+//color: @greyDark;
+  text-align: left;
+  padding-left: @right-layout-padding-left;
+//padding-left: -2%;
+  margin-left: -4px !important;
+}
+
+.content {
+  padding-top: @layout-padding-top;
+}
