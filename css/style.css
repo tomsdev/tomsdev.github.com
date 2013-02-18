@@ -1,6 +1,6 @@
 .btn-social {
-  width: 27px;
-  height: 27px;
+  width: 28px;
+  height: 28px;
   display: inline-block;
   border-radius: 50%;
   border: 4px solid #484848;
@@ -12,48 +12,40 @@
   border-radius: 33%;
 }
 .btn-social span {
-  background: url('../img/sprite-rsmb.png') no-repeat;
-  width: 27px;
-  height: 27px;
+  background: url('../img/sprite.png') no-repeat;
+  width: 28px;
+  height: 28px;
   display: block;
 }
 .cv {
   background-color: #da463f;
 }
 .cv span {
-  background: none;
-  color: #ffffff;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  padding-left: 3px;
-  line-height: 27px;
+  background-position: 0 -448px;
 }
-.cv span:after {
-  content: "CV";
+.email {
+  background-color: #804cbe;
+}
+.email span {
+  background-position: 0 -476px;
 }
 .github {
   background-color: #eeeeee;
 }
 .github span {
-  background-position: 0 -84px;
+  background-position: 0 -86px;
 }
 .twitter {
   background-color: #00aced;
 }
 .twitter span {
-  background-position: 0 -336px;
-}
-.facebook {
-  background-color: #4a6ea9;
-}
-.facebook span {
-  background-position: 0 0;
+  background-position: 0 -338px;
 }
 .linkedin {
   background-color: #0097bd;
 }
 .linkedin span {
-  background-position: 0 -196px;
+  background-position: 0 -199px;
 }
 .left {
   text-align: right;
@@ -93,11 +85,11 @@ h1 {
   margin-bottom: 17px;
 }
 #list-social {
-  height: 35px;
-  margin-top: 13.5px;
-  margin-bottom: 13.5px;
+  height: 36px;
+  margin-top: 13px;
+  margin-bottom: 13px;
   margin-left: 4px;
-  width: 275px;
+  width: 280px;
 }
 #list-social li {
   float: left;
@@ -167,6 +159,7 @@ article {
   text-decoration: none;
 }
 body {
+  position: relative;
   background-color: #ffffff;
   font-family: myriad-pro, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }

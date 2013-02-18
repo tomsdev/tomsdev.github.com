@@ -36,11 +36,6 @@
 		},
 		{
 			"title": "Code",
-			"image":
-				{
-					"src": "http://www.samuelclay.com/static/images/github-logo.png",
-					"width": "50"
-				},
 			"color": "purple",
 			"elements": [
                 {

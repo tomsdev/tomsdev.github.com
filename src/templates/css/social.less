@@ -2,14 +2,14 @@
 @btn-social-margin-horizontal: 10px;
 
 // Sizes
-@btn-social-inner-size: 27px;
+@btn-social-inner-size: 28px;
 @btn-social-border-size: 4px;
 @btn-social-size: @btn-social-inner-size + @btn-social-border-size * 2;
 @btn-social-width-with-margins: @btn-social-size +
                                 @btn-social-margin-horizontal * 2;
 
 // Images
-@btn-social-img-path: '../img/sprite-rsmb.png';
+@btn-social-img-path: '../img/sprite.png';
 
 .btn-social {
   width: @btn-social-inner-size;
@@ -33,33 +33,30 @@
   display: block;
 }
 
-// Btn with specific text
+// Btn with specific icon
 
 .cv {
   background-color: @red;
 }
 
 .cv span{
-  background: none;
-  color: @white;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  padding-left: 3px;
-  line-height: @btn-social-inner-size;
+  background-position: 0 -448px;
 }
 
-.cv span:after{
-  content: "CV";
+.email {
+  background-color: @purpleLight;
 }
 
-// Btn with specific icon
+.email span{
+  background-position: 0 -476px;
+}
 
 .github {
   background-color: @github;
 }
 
 .github span {
-  background-position: 0 -84px;
+  background-position: 0 -86px;
 }
 
 .twitter {
@@ -67,15 +64,7 @@
 }
 
 .twitter span {
-  background-position: 0 -336px;
-}
-
-.facebook {
-  background-color: @facebook;
-}
-
-.facebook span {
-  background-position: 0 0;
+  background-position: 0 -338px;
 }
 
 .linkedin {
@@ -83,5 +72,5 @@
 }
 
 .linkedin span {
-  background-position: 0 -196px;
+  background-position: 0 -199px;
 }
