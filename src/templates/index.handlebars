@@ -19,11 +19,9 @@
 
 		<nav role="navigation"class="span8 right">
 			<ul id="list-social">
-				<li><a class="btn-social cv" href="http://www.google.fr" target="_blank"><span></span></a></li>
-				<li><a class="btn-social email" href="http://www.google.fr" target="_blank"><span></span></a></li>
-				<li><a class="btn-social github" href="http://www.google.fr" target="_blank"><span></span></a></li>
-				<li><a class="btn-social twitter" href="http://www.google.fr" target="_blank"><span></span></a></li>
-				<li><a class="btn-social linkedin" href="http://www.google.fr" target="_blank"><span></span></a></li>
+				{{#navbar}}
+					<li><a class="btn-social {{icon}}" href="{{href}}" target="{{target}}"><span></span></a></li>
+				{{/navbar}}
 			</ul>
 		</nav>
 	</div>

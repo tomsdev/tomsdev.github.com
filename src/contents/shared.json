@@ -1,7 +1,10 @@
 {
 	"site-title": "Thomas Laurent",
 	"navbar": [
-		{ "label": "github", "href": "/"},
-		{ "label": "twitter", "href": "/"}
+		{ "icon": "cv", "target": "_blank", "href": "http://thomaslaurent.herokuapp.com/website/_site/uploads/ThomasLaurentResume.pdf"},
+		{ "icon": "email", "target": "_self", "href": "mailto:thomas.laurent@supinfo.com"},
+		{ "icon": "github", "target": "_blank", "href": "http://github.com/tomsdev"},
+		{ "icon": "twitter", "target": "_blank", "href": "http://twitter.com/t_laurent"},
+		{ "icon": "linkedin", "target": "_blank", "href": "http://www.linkedin.com/pub/thomas-laurent/64/8a7/720"}
 	]
 }

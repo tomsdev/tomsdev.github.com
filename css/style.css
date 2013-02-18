@@ -24,7 +24,7 @@
   background-position: 0 -448px;
 }
 .email {
-  background-color: #804cbe;
+  background-color: #774cb5;
 }
 .email span {
   background-position: 0 -476px;
@@ -146,11 +146,11 @@ article {
   color: #da463f;
 }
 .section-purple {
-  border-left-color: #5d3a8a;
+  border-left-color: #6e40a0;
 }
 .section-purple h3,
 .section-purple a:hover {
-  color: #5d3a8a;
+  color: #6e40a0;
 }
 * {
   margin: 0;
