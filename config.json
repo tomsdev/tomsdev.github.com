@@ -14,7 +14,18 @@
 		]	
 	},
 
+    "blog_example_setting_TOM": {
+        "posts_dir": "src/posts",
+        "post_format": "markdown",
+        "post_url": "/{year}/{month}/{date}/{title}",
+        "teaser_length": 2,
+        "homepage_posts": 10
+    },
+
 	"plugins": {
-		"template_engine": "punch-engine-handlebars"
+		"template_engine": "punch-engine-handlebars",
+        "helpers": {
+            "tag": "./src/helpers/tag_helper.js"
+        }
 	}
 }

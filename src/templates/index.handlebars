@@ -24,6 +24,8 @@
 				{{/navbar}}
 			</ul>
 		</nav>
+
+		<a class="clear-filter-btn" onclick='return clearFilterTag();' href='#'>clear</a>
 	</div>
 
 	<div class="content">
@@ -31,10 +33,16 @@
 			{{> block }}
 		{{/blocks}}
 
+			<!--<h1>DATE: {{#tag}}je te @@web:Website avec le @@mobile{{/tag}}</h1>-->
+			<!--<h1>DATE: {{#tagB}}web:WebsiteROX{{/tagB}}</h1>-->
+			<!--<h1>DATE: {{#tag}}Web{{/tag}}</h1>-->
+
 		<div class="hidden-phone row-fluid">
 			<div class="span4 background-left"></div>
 		</div>
 	</div>
+
+	<script src="filter.js"></script>
 </body>
 </html>
 

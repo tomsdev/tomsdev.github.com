@@ -5,17 +5,21 @@
 
 	<div class="span8 right section-content section-{{color}}">
 		{{#elements}}
-			<article>
+			<article {{#extract_tags_classes}}{{{text}}}{{/extract_tags_classes}}>
 			    <header>
 					<h3>{{title}}</h3>
 
+                    <div class="clearfix"></div>
+
 					{{#if link}}
-						<a href="{{link}}">{{link}}</a>
+						<div><a class="article-link" href="{{link}}">{{link}}</a></div>
 					{{/if}}
 				</header>
 
 				<div class="article-content">
-					<p>{{{text}}}</p>
+					<p>
+	                    {{#parse_tags}}{{{text}}}{{/parse_tags}}
+                    </p>
 				</div>
 			</article>
 		{{/elements}}

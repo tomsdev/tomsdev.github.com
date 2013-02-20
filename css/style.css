@@ -108,6 +108,8 @@ h3 {
   font-size: 1.3em;
   font-weight: bold;
   display: inline;
+  float: left;
+  margin-right: 8px;
 }
 .section-content {
   text-align: left;
@@ -118,38 +120,94 @@ h3 {
   padding-top: 6px;
   padding-bottom: 6px;
 }
-.section-content a {
+.article-link {
   color: #999999;
   font-size: 0.9em;
   display: block;
-  margin-bottom: 4px;
+  margin-top: 3px;
 }
 article {
   padding-top: 10px;
   padding-bottom: 10px;
 }
 .article-content {
-  margin-top: 10px;
+  margin-top: 8px;
+}
+/*
+.tags {
+	margin:0;
+	padding:0;
+	//position:absolute;
+	//right:24px;
+	//bottom:-12px;
+	list-style:none;
+	float:left;
+	margin-top: 4px;
+	margin-bottom: 2px;
+}
+
+.tags li {
+    float:left;
+    height:16px;
+    line-height:15px;
+    position:relative;
+    font-size:11px;
+}
+
+li .tag {
+     margin-right:8px;   //TODO var same as in H3
+}
+
+.tag {
+    height:16px;
+    line-height:15px;
+    position:relative;
+    font-size:11px;
+
+    padding:0 4px 0 4px;
+    color:#fff;
+    text-decoration:none;
+    border-radius:4px;
+}
+*/
+.tag {
+  font-weight: bold;
+}
+.clear-filter-btn {
+  display: none;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #da463f;
 }
 .section-green {
   border-left-color: #44a650;
 }
+.section-green .tag {
+  color: #44a650;
+}
 .section-green h3,
-.section-green a:hover {
+.section-green .article-link:hover {
   color: #44a650;
 }
 .section-red {
   border-left-color: #da463f;
 }
+.section-red .tag {
+  color: #da463f;
+}
 .section-red h3,
-.section-red a:hover {
+.section-red .article-link:hover {
   color: #da463f;
 }
 .section-purple {
   border-left-color: #6e40a0;
 }
+.section-purple .tag {
+  color: #6e40a0;
+}
 .section-purple h3,
-.section-purple a:hover {
+.section-purple .article-link:hover {
   color: #6e40a0;
 }
 * {
@@ -158,8 +216,12 @@ article {
   list-style: none;
   text-decoration: none;
 }
+html {
+  height: 100%;
+}
 body {
   position: relative;
+  min-height: 100%;
   background-color: #ffffff;
   font-family: myriad-pro, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
