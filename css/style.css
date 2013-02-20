@@ -133,43 +133,6 @@ article {
 .article-content {
   margin-top: 8px;
 }
-/*
-.tags {
-	margin:0;
-	padding:0;
-	//position:absolute;
-	//right:24px;
-	//bottom:-12px;
-	list-style:none;
-	float:left;
-	margin-top: 4px;
-	margin-bottom: 2px;
-}
-
-.tags li {
-    float:left;
-    height:16px;
-    line-height:15px;
-    position:relative;
-    font-size:11px;
-}
-
-li .tag {
-     margin-right:8px;   //TODO var same as in H3
-}
-
-.tag {
-    height:16px;
-    line-height:15px;
-    position:relative;
-    font-size:11px;
-
-    padding:0 4px 0 4px;
-    color:#fff;
-    text-decoration:none;
-    border-radius:4px;
-}
-*/
 .tag {
   font-weight: bold;
 }
@@ -215,6 +178,7 @@ li .tag {
   padding: 0;
   list-style: none;
   text-decoration: none;
+  word-wrap: break-word;
 }
 html {
   height: 100%;
