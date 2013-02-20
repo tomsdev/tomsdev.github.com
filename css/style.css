@@ -121,7 +121,7 @@ h3 {
   padding-bottom: 6px;
 }
 .article-link {
-  color: #999999;
+  color: #999999 !important;
   font-size: 0.9em;
   display: block;
   margin-top: 3px;
@@ -146,7 +146,8 @@ article {
 .section-green {
   border-left-color: #44a650;
 }
-.section-green .tag {
+.section-green .tag,
+.section-green a {
   color: #44a650;
 }
 .section-green h3,
@@ -156,7 +157,8 @@ article {
 .section-red {
   border-left-color: #da463f;
 }
-.section-red .tag {
+.section-red .tag,
+.section-red a {
   color: #da463f;
 }
 .section-red h3,
@@ -166,7 +168,8 @@ article {
 .section-purple {
   border-left-color: #6e40a0;
 }
-.section-purple .tag {
+.section-purple .tag,
+.section-purple a {
   color: #6e40a0;
 }
 .section-purple h3,

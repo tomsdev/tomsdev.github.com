@@ -30,7 +30,7 @@
                 },
                 {
                     "title" : "Are you hiring in San Francisco?",
-                    "text" : "Contact me, I'm currently looking for a job in this area."
+                    "text" : "<a href='mailto:thomas.laurent@supinfo.com'>Contact me</a>, I'm currently looking for a job in this area."
                 }
             ]
         },
