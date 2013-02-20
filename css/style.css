@@ -86,11 +86,13 @@
 h1 {
   font-size: 1.75em;
   font-weight: 400;
-  color: #ffffff;
   line-height: 28px;
   height: 28px;
   margin-top: 17px;
   margin-bottom: 17px;
+}
+.header-title {
+  color: #ffffff;
 }
 #list-social {
   height: 34px;

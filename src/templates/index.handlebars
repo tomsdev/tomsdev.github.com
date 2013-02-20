@@ -15,7 +15,7 @@
 </head>
 <body>
 	<div class="row-fluid fixed-top header-bar">
-		<div class="span4 left"><h1 class="left-content">{{header.title}}</h1></div>
+		<div class="span4 left"><h1 class="left-content"><a class="header-title" href="#">{{header.title}}</a></h1></div>
 
 		<nav role="navigation"class="span8 right">
 			<ul id="list-social">
@@ -24,18 +24,12 @@
 				{{/navbar}}
 			</ul>
 		</nav>
-
-		<!--<a class="clear-filter-btn" onclick='return clearFilterTag();' href='#'>clear</a>-->
 	</div>
 
 	<div class="content">
 		{{#blocks}}
 			{{> block }}
 		{{/blocks}}
-
-			<!--<h1>DATE: {{#tag}}je te @@web:Website avec le @@mobile{{/tag}}</h1>-->
-			<!--<h1>DATE: {{#tagB}}web:WebsiteROX{{/tagB}}</h1>-->
-			<!--<h1>DATE: {{#tag}}Web{{/tag}}</h1>-->
 
 		<div class="hidden-phone row-fluid">
 			<div class="span4 background-left"></div>
