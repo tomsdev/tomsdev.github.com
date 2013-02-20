@@ -1,16 +1,23 @@
 // Borders
 @layout-border-size: 2px;
+@layout-section-color-border-size: 6px;
 
 // Paddings
-@layout-padding-top: @header-height + 40; // for the fixed-top header
-@mobile-layout-padding-top: @mobile-header-height; // for the fixed-top header
-@right-layout-padding-left: 20px;
+@layout-padding-top: @header-height + 35; // For the fixed-top header
+@mobile-layout-padding-top: @mobile-header-height; // For the fixed-top header
+
+// Margins
+@margin-fluid: 2.564102564102564%;
+@margin-fluid-star: 2.5109110747408616%;
 
 .left {
-//color: @greyDark;
   text-align: right;
-  padding-right: 2.564102564102564%;
-  *padding-right: 2.5109110747408616%;
+  padding-right: @margin-fluid;
+  *padding-right: @margin-fluid-star;
+}
+
+.left-content {
+  margin-right: @layout-section-color-border-size / 2;
 }
 
 .background-left {
@@ -24,9 +31,11 @@
 }
 
 .right {
-
+  margin-left: @margin-fluid;
+  *margin-left: @margin-fluid-star;
 }
 
 .content {
   padding-top: @layout-padding-top;
+  padding-bottom: 10px;
 }

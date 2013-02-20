@@ -1,9 +1,7 @@
 
 // Desktop large
 @media (min-width: 1200px) {
-  #list-social li:first-child .btn-social {
-    margin-left: 0;
-  }
+
 }
 
 // Desktop
@@ -13,10 +11,7 @@
 
 // Tablet to desktop
 @media (min-width: 768px) and (max-width: 979px) {
-  .left {
-    padding-right: 2.7624309392265194%;
-    *padding-right: 2.709239449864817%;
-  }
+
 }
 
 // Tablet
@@ -27,6 +22,10 @@
     *padding-right: 0;
   }
 
+  .left-content {
+    margin-right: 0;
+  }
+
   .header-bar {
     height: @mobile-header-height;
   }
@@ -35,17 +34,25 @@
     margin: 0 auto;
   }
 
+  #list-social li:first-child .btn-social {
+    margin-left: @btn-social-margin-horizontal;
+  }
+
   .content {
     padding-top: @mobile-layout-padding-top;
   }
 
   h2 {
-    margin-top: 0;
+    margin-top: @mobile-section-title-padding-top;
   }
 
   section {
     margin-top: 15px;
     margin-bottom: 15px;
+  }
+
+  .section-content {
+    padding-left: @mobile-section-content-padding-left;
   }
 }
 

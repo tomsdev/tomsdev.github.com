@@ -52,6 +52,9 @@
   padding-right: 2.564102564102564%;
   *padding-right: 2.5109110747408616%;
 }
+.left-content {
+  margin-right: 3px;
+}
 .background-left {
   position: absolute;
   background-color: #ecece8;
@@ -61,8 +64,13 @@
   bottom: 0;
   z-index: -1;
 }
+.right {
+  margin-left: 2.564102564102564%;
+  *margin-left: 2.5109110747408616%;
+}
 .content {
-  padding-top: 102px;
+  padding-top: 97px;
+  padding-bottom: 10px;
 }
 .fixed-top {
   position: fixed;
@@ -94,6 +102,9 @@ h1 {
 #list-social li {
   float: left;
 }
+#list-social li:first-child .btn-social {
+  margin-left: 0;
+}
 section {
   margin-bottom: 22px;
 }
@@ -101,37 +112,34 @@ h2 {
   font-size: 1.4em;
   font-weight: 400;
   text-shadow: 1px 1px 0 #f6f6f6;
-  margin-top: 15px;
+  margin-top: 18px;
 }
 h3 {
   font-size: 1.3em;
   font-weight: 400;
-  display: inline;
-  float: left;
-  margin-right: 8px;
 }
 .section-content {
   text-align: left;
-  padding-left: 20px;
+  padding-left: 2.564102564102564%;
+  *padding-left: 2.5109110747408616%;
   margin-left: -4px !important;
   border-left-style: solid;
   border-left-width: 6px;
-  padding-top: 6px;
-  padding-bottom: 6px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .article-link {
   color: #999999;
   font-weight: 300;
   font-size: 0.9em;
-  display: block;
   margin-top: 3px;
 }
 article {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 9px;
+  padding-bottom: 9px;
 }
 .article-content {
-  margin-top: 8px;
+  margin-top: 7px;
   color: #000000;
 }
 .clear-filter-btn {
@@ -190,18 +198,13 @@ a {
   font-weight: 400;
 }
 @media (min-width: 1200px) {
-  #list-social li:first-child .btn-social {
-    margin-left: 0;
-  }
+  
 }
 @media (max-width: 980px) {
   
 }
 @media (min-width: 768px) and (max-width: 979px) {
-  .left {
-    padding-right: 2.7624309392265194%;
-    *padding-right: 2.709239449864817%;
-  }
+  
 }
 @media (max-width: 767px) {
   .left {
@@ -209,21 +212,30 @@ a {
     padding-right: 0;
     *padding-right: 0;
   }
+  .left-content {
+    margin-right: 0;
+  }
   .header-bar {
     height: 124px;
   }
   #list-social {
     margin: 0 auto;
   }
+  #list-social li:first-child .btn-social {
+    margin-left: 10px;
+  }
   .content {
     padding-top: 124px;
   }
   h2 {
-    margin-top: 0;
+    margin-top: 10px;
   }
   section {
     margin-top: 15px;
     margin-bottom: 15px;
+  }
+  .section-content {
+    padding-left: 16px;
   }
 }
 @media (max-width: 480px) {

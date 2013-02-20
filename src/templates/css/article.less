@@ -2,14 +2,18 @@
 @h2-shadow-color: #F6F6F6;
 
 // Section
+@mobile-section-content-padding-left: 16px;
+@section-force-move-left: -4px;
 @section-margin-bottom: 22px;
-@section-content-padding-vertical: 6px;
-@section-header-padding-top: @section-content-padding-vertical +
+@section-content-padding-vertical: 10px;
+@section-title-padding-top: @section-content-padding-vertical +
                              @article-padding-vertical;
+@mobile-section-title-padding-top: 10px;
 
 // Article
-@article-padding-vertical: 10px;
-@article-content-margin-top: 8px;
+@article-padding-vertical: 9px;
+@article-content-margin-top: 7px;
+@article-link-margin-top: 3px;
 
 section {
   margin-bottom: @section-margin-bottom;
@@ -17,27 +21,23 @@ section {
 
 h2 {
   font-size: 1.4em;
-  //color: @greyDarkText;
   font-weight: @bold;
   text-shadow: 1px 1px 0 @h2-shadow-color;
-  margin-top: @section-header-padding-top - 1;
+  margin-top: @section-title-padding-top - 1;
 }
 
 h3 {
   font-size: 1.3em;
   font-weight: @bold;
-  display: inline; //permit h3 to have a link beside
-  float: left;
-  margin-right:8px; //TODO var
 }
 
 .section-content {
   text-align: left;
-  padding-left: @right-layout-padding-left;
-  margin-left: -4px !important;
-
+  padding-left: @margin-fluid;
+  *padding-left: @margin-fluid-star;
+  margin-left: @section-force-move-left !important;
   border-left-style: solid;
-  border-left-width: 6px;
+  border-left-width: @layout-section-color-border-size;
   padding-top: @section-content-padding-vertical;
   padding-bottom: @section-content-padding-vertical;
 }
@@ -46,8 +46,7 @@ h3 {
   color: @greyDarkText;
   font-weight: @regular;
   font-size: 0.9em;
-  display: block;
-  margin-top: 3px; //TODO var
+  margin-top: @article-link-margin-top;
 }
 
 article {
@@ -59,11 +58,6 @@ article {
   margin-top: @article-content-margin-top;
   color: @black;
 }
-
-//.tag {
-//  //font-weight: bold;
-//  font-weight: 500;
-//}
 
 .clear-filter-btn {
   display: none;
