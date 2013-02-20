@@ -18,14 +18,14 @@ section {
 h2 {
   font-size: 1.4em;
   //color: @greyDarkText;
-  font-weight: bold;
+  font-weight: @bold;
   text-shadow: 1px 1px 0 @h2-shadow-color;
   margin-top: @section-header-padding-top - 1;
 }
 
 h3 {
   font-size: 1.3em;
-  font-weight: bold;
+  font-weight: @bold;
   display: inline; //permit h3 to have a link beside
   float: left;
   margin-right:8px; //TODO var
@@ -44,6 +44,7 @@ h3 {
 
 .article-link {
   color: @greyDarkText;
+  font-weight: @regular;
   font-size: 0.9em;
   display: block;
   margin-top: 3px; //TODO var
@@ -59,9 +60,10 @@ article {
   color: @black;
 }
 
-.tag {
-  font-weight: bold;
-}
+//.tag {
+//  //font-weight: bold;
+//  font-weight: 500;
+//}
 
 .clear-filter-btn {
   display: none;

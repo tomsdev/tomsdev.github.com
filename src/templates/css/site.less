@@ -8,6 +8,7 @@
 
 html {
   height: 100%;
+  -webkit-font-smoothing: antialiased;
 }
 
 body {
@@ -15,9 +16,15 @@ body {
   min-height: 100%;
   // Layout right color
   background-color: @white;
-  font-family: myriad-pro, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: @light;
 }
 
 a:hover {
   text-decoration: none;
+}
+
+a {
+//font-weight: bold;
+  font-weight: @bold;
 }
