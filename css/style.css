@@ -99,7 +99,6 @@ section {
 }
 h2 {
   font-size: 1.4em;
-  color: #999999;
   font-weight: bold;
   text-shadow: 1px 1px 0 #f6f6f6;
   margin-top: 15px;
@@ -121,7 +120,7 @@ h3 {
   padding-bottom: 6px;
 }
 .article-link {
-  color: #999999 !important;
+  color: #999999;
   font-size: 0.9em;
   display: block;
   margin-top: 3px;
@@ -132,6 +131,7 @@ article {
 }
 .article-content {
   margin-top: 8px;
+  color: #000000;
 }
 .tag {
   font-weight: bold;
@@ -143,36 +143,27 @@ article {
   right: 20px;
   color: #da463f;
 }
-.section-green {
+.section-green .section-content {
   border-left-color: #44a650;
 }
-.section-green .tag,
-.section-green a {
-  color: #44a650;
-}
-.section-green h3,
+.section-green,
+.section-green a:not(.article-link),
 .section-green .article-link:hover {
   color: #44a650;
 }
-.section-red {
+.section-red .section-content {
   border-left-color: #da463f;
 }
-.section-red .tag,
-.section-red a {
-  color: #da463f;
-}
-.section-red h3,
+.section-red,
+.section-red a:not(.article-link),
 .section-red .article-link:hover {
   color: #da463f;
 }
-.section-purple {
+.section-purple .section-content {
   border-left-color: #6e40a0;
 }
-.section-purple .tag,
-.section-purple a {
-  color: #6e40a0;
-}
-.section-purple h3,
+.section-purple,
+.section-purple a:not(.article-link),
 .section-purple .article-link:hover {
   color: #6e40a0;
 }

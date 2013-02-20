@@ -17,7 +17,7 @@ section {
 
 h2 {
   font-size: 1.4em;
-  color: @greyDarkText;
+  //color: @greyDarkText;
   font-weight: bold;
   text-shadow: 1px 1px 0 @h2-shadow-color;
   margin-top: @section-header-padding-top - 1;
@@ -43,7 +43,7 @@ h3 {
 }
 
 .article-link {
-  color: @greyDarkText !important;
+  color: @greyDarkText;
   font-size: 0.9em;
   display: block;
   margin-top: 3px; //TODO var
@@ -56,6 +56,7 @@ article {
 
 .article-content {
   margin-top: @article-content-margin-top;
+  color: @black;
 }
 
 .tag {
@@ -72,38 +73,26 @@ article {
 
 // Section colors
 
-.section-green {
+.section-green .section-content {
   border-left-color: @green;
 }
 
-.section-green .tag, .section-green a {
-  color:@green;
-}
-
-.section-green h3, .section-green .article-link:hover {
+.section-green, .section-green a:not(.article-link), .section-green .article-link:hover {
   color: @green;
 }
 
-.section-red {
+.section-red .section-content {
   border-left-color: @red;
 }
 
-.section-red .tag, .section-red a {
-  color:@red;
-}
-
-.section-red h3, .section-red .article-link:hover {
+.section-red, .section-red a:not(.article-link), .section-red .article-link:hover {
   color: @red;
 }
 
-.section-purple {
+.section-purple .section-content {
   border-left-color: @purple;
 }
 
-.section-purple .tag, .section-purple a {
-  color:@purple;
-}
-
-.section-purple h3, .section-purple .article-link:hover {
+.section-purple, .section-purple a:not(.article-link), .section-purple .article-link:hover {
   color: @purple;
 }
