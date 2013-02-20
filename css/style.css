@@ -142,12 +142,29 @@ article {
   margin-top: 7px;
   color: #000000;
 }
-.clear-filter-btn {
+.clear-filter {
   display: none;
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  color: #da463f;
+  margin-top: 2px;
+  margin-bottom: 10px;
+}
+.clear-filter-text {
+  color: #999999 !important;
+}
+.clear-filter-btn {
+  color: #ffffff !important;
+  background: #b8b8b8;
+  color: #ffffff;
+  margin-left: 6px;
+  display: inline-block;
+  line-height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: bottom;
 }
 .section-green .section-content {
   border-left-color: #44a650;

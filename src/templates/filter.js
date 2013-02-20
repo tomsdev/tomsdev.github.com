@@ -14,15 +14,10 @@ function forEach(selector, fn) {
  * Changes the visibility for each node that match the given selector.
  * @param {!String} selector
  * @param {!Boolean} isVisible
- * @param {?Function} beforeFn Optional function to execute on each node before
- *                             changing its visibility.
  */
-function SetNodesVisibility(selector, isVisible, beforeFn) {
+function SetNodesVisibility(selector, isVisible) {
     var value = isVisible ? "block" : "none";
     forEach(selector, function (node) {
-        if (beforeFn) {
-            beforeFn(node);
-        }
         node.style.display = value;
     });
 }
@@ -41,16 +36,17 @@ function getTagSelector(tag) {
  * @param tag
  */
 function showClearFilterBtn(tag) {
-    SetNodesVisibility(".clear-filter-btn", true, function (node) {
-        node.innerText = "stop filtering by tag " + tag;
+    forEach(".clear-filter-text", function (node) {
+        node.innerText = "filter on " + tag;
     });
+    SetNodesVisibility(".clear-filter", true);
 }
 
 /**
  * Hides the clear filter button.
  */
 function hideClearFilterBtn() {
-    SetNodesVisibility(".clear-filter-btn", false);
+    SetNodesVisibility(".clear-filter", false);
 }
 
 /**
