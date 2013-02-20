@@ -7,7 +7,6 @@
     {
         "title" : "",
         "link" : "",
-        "about" : "",
         "text" : ""
     },
 
@@ -57,7 +56,7 @@
 			]
 		},
 		{
-			"title": "Past works",
+			"title": "2012",
 			"color": "red",
 			"elements": [
                 {
@@ -96,30 +95,24 @@
                     "text" : "A web application for restaurants with realtime features via websockets. Clients can order a meal from their phone, waiters will see it in realtime on their tablets and cookers can take orders and mark them ready to served! Using ASP.Net MVC, Entity Framework and SignalR."
                 },
                 {
-                    "title" : "Intern at Exakis",
-                    "text" : "Prototyped and developed a timesheet management web application using ASP.Net."
+                    "title" : "Trainer at SUPINFO International University",
+                    "text" : "Taught approximately 500 hours of Silverlight, ASP.Net, WP7, EF, TFS and Azure to university classes."
                 }
 			]
 		},
         {
-            "title": "2010",
+            "title": "Older",
             "color": "red",
             "elements": [
                 {
-                    "title" : "Trainer at SUPINFO International University",
-                    "text" : "Taught approximately 500 hours of Silverlight, ASP.Net, WP7, EF, TFS and Azure to university classes."
+                    "title" : "Intern at Exakis",
+                    "text" : "Prototyped and developed a timesheet management web application using ASP.Net."
                 },
                 {
                     "title" : "Ahead",
                     "link" : "http://vimeo.com/15500485",
                     "text" : "An easy to use project management service that lets you get tasks done according to priorities, time your work for any project, visualize your workload, remember your expenses... and a lot more!"
-                }
-            ]
-        },
-        {
-            "title": "2009",
-            "color": "red",
-            "elements": [
+                },
                 {
                     "title" : "Intern at KLS Logistic Systems",
                     "text" : "Developed a pharmacy stock manager web application and an intranet tool for planning using Silverlight. It communicated with the company Oracle database using ADO.NET and a web service."
