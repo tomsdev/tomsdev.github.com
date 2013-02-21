@@ -87,7 +87,7 @@
 			"elements": [
                 {
                     "title" : "Software Developer at EADS Astrium",
-                    "text" : "Developed a timeline component with many functions for 3D geo-imagery @@software using WPF. It worked well with 10,000 time-tagged objects and kept synchronized with the other components."
+                    "text" : "Developed a timeline component with many functions for GIS @@software using WPF. It worked well with 10,000 time-tagged objects and kept synchronized with the other components."
                 },
                 {
                     "title" : "YouFood",
