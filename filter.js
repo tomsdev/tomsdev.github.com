@@ -37,7 +37,7 @@ function getTagSelector(tag) {
  */
 function showClearFilterBtn(tag) {
     forEach(".clear-filter-text", function (node) {
-        node.innerText = "filter on " + tag;
+        node.innerHTML = "filter on " + tag;
     });
     SetNodesVisibility(".clear-filter", true);
 }

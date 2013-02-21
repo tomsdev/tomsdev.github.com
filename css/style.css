@@ -153,10 +153,13 @@ article {
   color: #999999 !important;
 }
 .clear-filter-btn {
+  padding: 6px;
+  margin-right: -4px;
+}
+.clear-filter-btn span {
   color: #ffffff !important;
   background: #b8b8b8;
   color: #ffffff;
-  margin-left: 6px;
   display: inline-block;
   line-height: 16px;
   width: 16px;
@@ -215,15 +218,6 @@ a:hover {
 a {
   font-weight: 400;
 }
-@media (min-width: 1200px) {
-  
-}
-@media (max-width: 980px) {
-  
-}
-@media (min-width: 768px) and (max-width: 979px) {
-  
-}
 @media (max-width: 767px) {
   .left {
     text-align: center;
@@ -255,7 +249,4 @@ a {
   .section-content {
     padding-left: 16px;
   }
-}
-@media (max-width: 480px) {
-  
 }
