@@ -25,7 +25,7 @@
                 },
                 {
                     "title" : "I work with all the good stuff",
-                    "text" : "Including AngularJS, Jasmine, Punch, HTML5, CSS3, Less, Handlebars, Twitter Bootstrap and many more."
+                    "text" : "Including AngularJS, Jasmine, Punch, HTML5, CSS3, Less, Handlebars, Twitter Bootstrap, ASP.Net MVC and many more."
                 },
                 {
                     "title" : "Are you hiring in San Francisco?",
@@ -65,7 +65,7 @@
                     "text" : "Interesting @@web application of topological sort. Good example of using AngularJS to build the UI, the service and test all the code with Jasmine."
                 },
                 {
-                    "title" : "Web Developer at EADS Astrium",
+                    "title" : "Web developer at EADS Astrium",
                     "about" : "Job as a web developer",
                     "text" : "Prototyped a @@web version of existing GIS software using AngularJS, jQuery and Dynatree. It communicated with a Unity component and worked well with 10,000 objects."
                 },
@@ -86,8 +86,13 @@
 			"color": "purple",
 			"elements": [
                 {
-                    "title" : "Software Developer at EADS Astrium",
+                    "title" : "Software developer at EADS Astrium",
                     "text" : "Developed a timeline component with many functions for GIS @@software using WPF. It worked well with 10,000 time-tagged objects and kept synchronized with the other components."
+                },
+                {
+                    "title" : "Azure and .Net video training courses in French",
+                    "link" : "http://thomaslaurent.fr",
+                    "text" : "I made a couple videos about @@web:Azure and .Net development."
                 },
                 {
                     "title" : "YouFood",
