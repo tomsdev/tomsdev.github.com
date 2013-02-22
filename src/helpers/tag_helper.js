@@ -11,10 +11,15 @@ var block_helpers = {
             if(!text) {
                 return "";
             }
+//            // replace format @@web:Website
+//            var result = text.replace(/@@([a-z]*):([a-z-]*)/gi, "<a class='tag' href='#$1'>$2</a>");
+//            // replace format @@web
+//            return result.replace(/@@([a-z-]*)/gi, "<a class='tag' href='#$1'>$1</a>");
+
             // replace format @@web:Website
-            var result = text.replace(/@@([a-z]*):([a-z-]*)/gi, "<a class='tag' href='#$1'>$2</a>");
+            var result = text.replace(/@@([a-z]*):([a-z-]*)/gi, "$2");
             // replace format @@web
-            return result.replace(/@@([a-z-]*)/gi, "<a class='tag' href='#$1'>$1</a>");
+            return result.replace(/@@([a-z-]*)/gi, "$1");
         });
     },
 
