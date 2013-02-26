@@ -175,7 +175,8 @@ article {
 }
 .section-green,
 .section-green a:not(.article-link),
-.section-green .article-link:hover {
+.section-green .article-link:hover,
+.section-green .tag {
   color: #44a650;
 }
 .section-red .section-content {
@@ -183,7 +184,8 @@ article {
 }
 .section-red,
 .section-red a:not(.article-link),
-.section-red .article-link:hover {
+.section-red .article-link:hover,
+.section-red .tag {
   color: #da463f;
 }
 .section-purple .section-content {
@@ -191,7 +193,8 @@ article {
 }
 .section-purple,
 .section-purple a:not(.article-link),
-.section-purple .article-link:hover {
+.section-purple .article-link:hover,
+.section-purple .tag {
   color: #6e40a0;
 }
 * {

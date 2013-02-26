@@ -17,9 +17,9 @@ var block_helpers = {
 //            return result.replace(/@@([a-z-]*)/gi, "<a class='tag' href='#$1'>$1</a>");
 
             // replace format @@web:Website
-            var result = text.replace(/@@([a-z]*):([a-z-]*)/gi, "$2");
+            var result = text.replace(/@@([a-z]*):([a-z-]*)/gi, "<span class='tag'>$2</span>");
             // replace format @@web
-            return result.replace(/@@([a-z-]*)/gi, "$1");
+            return result.replace(/@@([a-z-]*)/gi, "<span class='tag'>$1</span>");
         });
     },
 
