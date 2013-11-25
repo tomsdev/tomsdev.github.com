@@ -1,0 +1,8 @@
+{ 
+  "name" : "tomsdev.github.com",
+  "version" : "1.0.0",
+  "dependencies" : {
+    "punch": "latest",
+    "punch-engine-handlebars": "latest"
+  }
+}
