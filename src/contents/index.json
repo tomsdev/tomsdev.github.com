@@ -13,7 +13,7 @@
 	"blocks": [
         {
             "title": "Current position",
-            "color": "purple",
+            "color": "red",
             "elements": [
                 {
                     "title" : "Software Engineer at Google YouTube",
@@ -50,7 +50,7 @@
 		},
 		{
 			"title": "2012",
-			"color": "red",
+			"color": "purple",
 			"elements": [
                 {
                     "title" : "Topological Sort",
@@ -65,7 +65,7 @@
                 {
                     "title" : "Birthday Social Calendar",
                     "link" : "http://birthdaysocialcalendar.herokuapp.com/press.html",
-                    "text" : "One of the first @@software:apps in the Windows 8 store. More than 15,000 users. This application connects to Facebook and allows you to see upcoming birthdays of your friends and have reminders directly on Windows 8."
+                    "text" : "One of the first @@software:apps in the Windows 8 store. More than 80,000 downloads. This application connects to Facebook and allows you to see upcoming birthdays of your friends and have reminders directly on Windows 8."
                 },
                 {
                     "title" : "Emoscale",
@@ -76,7 +76,7 @@
 		},
 		{
 			"title": "2011",
-			"color": "purple",
+			"color": "red",
 			"elements": [
                 {
                     "title" : "Software developer at EADS Astrium",
@@ -100,7 +100,7 @@
 		},
         {
             "title": "Older",
-            "color": "red",
+            "color": "green",
             "elements": [
                 {
                     "title" : "Intern at Exakis",
