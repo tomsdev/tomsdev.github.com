@@ -12,31 +12,24 @@
 
 	"blocks": [
         {
-            "title": "About me",
+            "title": "Current position",
             "color": "purple",
             "elements": [
                 {
-                    "title" : "I'm a developer",
-                    "text" : "I love the web and what's going on with it. Learn, create and share are my passions."
-                },
-                {
-                    "title" : "I love coding",
-                    "text" : "I code in JavaScript and C#. I have experiences in @@web, @@mobile and @@software development."
-                },
-                {
-                    "title" : "I work with all the good stuff",
-                    "text" : "Including AngularJS, Jasmine, Punch, HTML5, CSS3, Less, Handlebars, Twitter Bootstrap, ASP.Net MVC and many more."
-                },
-                {
-                    "title" : "Are you hiring?",
-                    "text" : "<a href='mailto:thomas.laurent@supinfo.com'>Contact me</a>, I'm currently looking for a job."
+                    "title" : "Software Engineer at Google YouTube",
+                    "text" : "Creating the best Analytics tools on desktop and mobile for YouTube creators."
                 }
             ]
         },
 		{
-			"title": "Recent works",
+			"title": "2013",
 			"color": "green",
 			"elements": [
+                {
+                    "title" : "Software Engineer Intern at Google",
+                    "link" : "https://github.com/GoogleCloudPlatform/PerfKitExplorer",
+                    "text" : "I developed the frontend of PerfKit Explorer, a @@web tool for composing queries and dashboards. The tool is now @@open @@source on GitHub and uses AngularJS, Google Charts and Closure."
+                },
                 {
                     "title" : "tomsdev.github.com",
                     "link" : "http://github.com/tomsdev/tomsdev.github.com",
@@ -45,7 +38,7 @@
                 {
                     "title" : "Brackets TypeScript CodeIntel",
                     "link" : "http://github.com/tomsdev/brackets-typescript-code-intel",
-                    "text" : "Extension for the code editor Brackets. It adds TypeScript support (Auto-completion, Quick Edit and more soon). It's built using @@web technologies but runs as a @@software."
+                    "text" : "Plugin for Adobe Brackets code editor. It adds TypeScript support (Auto-completion, Quick Edit and more soon). It's built using @@web technologies but runs as a @@software."
                 },
                 {
                     "title" : "Vocabulary",
@@ -91,7 +84,7 @@
                 },
                 {
                     "title" : "Azure and .Net video training courses in French",
-                    "link" : "http://thomaslaurent.fr",
+                    "link" : "https://vimeo.com/channels/919417",
                     "text" : "I made a couple videos about @@web:Azure and .Net development."
                 },
                 {
